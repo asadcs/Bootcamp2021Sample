@@ -22,8 +22,8 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Installing Node Module
-        uses: action/setup-node@v2-beta
+      - name: Installing Node 
+        uses: actions/setup-node@v2-beta
         with:
           node-version: 12  
           
